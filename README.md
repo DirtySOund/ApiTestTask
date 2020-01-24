@@ -2,7 +2,7 @@
 This framework is written to test the open Dummy api application, for test task #2.
 For more information about test tasks you can read below, or on request to the author. 
 
-**API Dummy api example link:**
+**API Dummy example link:**
 [Dummy](http://dummy.restapiexample.com/)
 
 **Methods tested:**
