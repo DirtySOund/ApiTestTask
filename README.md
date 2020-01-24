@@ -9,7 +9,7 @@ For more information about test tasks you can read below, or on request to the a
 1. GET http://dummy.restapiexample.com/api/v1/employee/1
 2. POST http://dummy.restapiexample.com/api/v1/create
 
-**Framework Used:**
+**Frameworks Used:**
 Python + Requests + PyTest
 
 # Run:
