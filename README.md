@@ -1,5 +1,5 @@
 # Descrtiption:
-This framework is written to test the open Dummy api application, for test task #2.
+This project create for test the open Dummy api application, for test task #2.
 For more information about test tasks you can read below, or on request to the author. 
 
 **API Dummy example link:**
