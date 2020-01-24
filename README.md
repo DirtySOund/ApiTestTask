@@ -12,7 +12,7 @@ For more information about test tasks you can read below, or on request to the a
 **Framework Used:**
 Python + Requests + PyTest
 
-# Run
+# Run:
 
 ```bash
 pip install -r requirements.txt
