@@ -7,15 +7,14 @@ class RequestTypes:
     POST = 'POST'
 
 
-def _send_request(request_type, url, request_data=None):
-    headers = ''
+def _send_request(request_type, url, request_data=None, headers = ''):
     assert request_type in RequestTypes.__dict__
     if request_type == RequestTypes.GET:
         response = requests.get(url, headers=headers)
     elif request_type == RequestTypes.POST:
         response = requests.post(url, json=request_data, headers=headers)
     else:
-        response = None
+        raise Exception("Unable request method")
 
     try:
         response_body = response.json()
