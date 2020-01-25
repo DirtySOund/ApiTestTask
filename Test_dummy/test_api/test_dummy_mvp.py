@@ -42,12 +42,12 @@ def test_api_negative_value(api_requests):
     status_code = api_requests.single_employee_post(config)
     assert status_code[0] == 200
 
-    """3.Try get user with incorrect user_id"""
+    """3. Try get user with incorrect user_id"""
     user_id = '/'
     status_code = api_requests.single_employee_get(user_id)
     assert status_code[0] == 404
 
-    """4.Try get user with un-existing user_id"""
+    """4. Try get user with un-existing user_id"""
     user_id = '1111111111'
     status_code = api_requests.single_employee_get(user_id)
     assert status_code[0] == 200
